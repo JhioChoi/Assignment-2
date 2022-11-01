@@ -1,0 +1,174 @@
+/* custom css goes here */
+/*
+    File name : app.css
+    Name : Jiho Choi
+    Student Number : 301183378
+    Date : October 02, 2022
+*/
+/*main_nav section*/
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+body{
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+.container{
+    height: 700px;
+    color: white;
+}
+/*contents.ejs section*/
+a{
+    color: rgb(176, 176, 176);
+}
+a{
+    color:white;
+}
+.navbar > div {
+    margin: auto;
+}
+.footer-content{
+    background-color: white;
+    padding:5px 20px 5px 20px;
+    border-radius: 60px;
+    font-size: 8pt;
+}
+.nav-link {
+    color: white;
+}
+.photo{
+    width: 300px;
+    height: 400px;
+}
+.about-flex{
+    display:flex;
+}
+.about-flex > div {
+    margin-left:40px;
+}
+.pp1{
+    width: 200px;
+    height: 200px;
+}
+table{
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    display: block;
+    width: 400px;
+
+}
+th, td{
+    width: 200px;
+}
+input{
+    width: 200px;
+    border-radius: 5px;
+
+}
+#b1, #b2{
+    text-align: center;
+    padding-top: 20px;
+}
+#thead01{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: larger;
+}
+#thead02{
+    padding-bottom: 20px;
+}
+button{
+    border-radius: 7px;
+    border: 1px #9dbbd5 solid;
+}
+.contect_page{
+    height: 700px;
+    padding-bottom: 100px;
+}
+.sp1{
+    width: 300px;
+    height: 300px;
+}
+.c1{
+    color: white;
+
+}
+#projects > div {
+    display: flex;
+    margin-top:40px;
+}
+#projects > div > p {
+    padding-left: 50px;
+}
+#services > div {
+    display: flex;
+    margin-top:40px;
+}
+#services > div > p {
+    padding-left: 50px;
+}
+#contact > div {
+    width:700px;
+    margin:auto;
+    margin-top: 50px;
+}
+
+/*login/cancle button*/
+.login {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+.login:hover {
+    color: #001F3F;
+    background-color: #fff;
+}
+.cancle {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+    text-decoration-line: none;
+}
+.cancle:hover {
+    color: #001F3F;
+    background-color: #fff;
+    text-decoration-line: none;
+}
+.add{
+    display: block;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: all .25s;
+  }
+  
+.add:hover{
+    letter-spacing: 15px;
+    color: black;
+}

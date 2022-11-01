@@ -1,0 +1,106 @@
+<!--Contents of 'Home' page-->
+<% if (title == "Home"){ %>  
+    <section id="home">
+        <br><!--Welcome start-->
+        <h3>Welcome to my site!</h3>
+        <p>This is my personal Portfolio website using ExpressJS. 
+            Along with the tasks to be carried out in COMP229, 
+            I will post the tasks and programs I have been doing so far, 
+            and the personal tasks I am carrying out in the future. <a href="/about">Click here</a> to learn more about me.
+        </p><!--Welcome end-->
+        <hr>
+        <dl>
+            <dt>My Missions Are: </dt>
+            <br>
+            <dd>&nbsp;&nbsp;&nbsp;&nbsp;To become a good student, do all the assignments and quizzes faithfully</dd>
+            <dd>&nbsp;&nbsp;&nbsp;&nbsp;To become a good full-stack developer, 
+                I will solve one or more algorithms every day and faithfully work on my personal projects</dd>  
+            <dd>&nbsp;&nbsp;&nbsp;&nbsp;To make a habit of meditating and recording for an hour every day to be a good leader in a personal project</dd>
+        </dl>
+    </section>
+    <% } %> 
+    
+    <!--Contents of About page-->
+    <% if (title == "About"){ %>  
+        <section id="about">
+            <div class="about-flex">
+                <img src="Assets/images/photo.jpg" alt="photo" class="photo">
+                <div>
+                    <br>
+                    <h3>Jiho Choi</h3>
+                    <br>
+                    <br>
+                    <p>
+                        Birthday : January 27, 2002<br>
+                        Student Number : 301183378<br>
+                        Program : Software Engineering Technology<br>
+                        <br>
+                        I have learned and applied effective communication methods, work methods, and work processes in practice through a personal project with students working in a co-up. Because the project is creating a website, I can use JS/CSS/HTML and the framework accordingly. 
+
+                        I did not learn them in school, but I learned them on my own, and I'm experiencing how to apply them. I am familiar with agile development through school team projects, and I am always learning new languages by myself, so I am also practicing solving algorithms. Since I usually watch and learn a lot of coding, it is customary to analyze and debug code while practicing making them my own.
+
+                        Also, I'm familiar with back-end languages like Java or C#, so I know cloud systems' flow of understanding and security. Recently, I've been experiencing everything I need to develop through my projects, and I'm focusing on learning Mongo DB, Express.js, and Node.js.
+                        <br>
+                        <br>
+                        <a href="Assets/Resume.pdf" target="_blank">My Resume Link Here !</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <% } %> 
+    
+    <!--Contents of 'Projects' page-->
+    <% if (title == "Projects"){ %>  
+        <section id="project">
+            <div>
+                <img src="Assets/images/1.png" alt="1" class="pp1">
+                <p>
+                    Project Name : ANABADA
+                    <br><br><br>
+                    Contents : We are developing a used site for schools. I am working on a project with four friends from the same department. Currently, the design of the homepage is completed.
+                </p>
+            </div>
+            <hr>
+            <div>
+                <img src="Assets/images/2.png" alt="2" class="pp1">
+                <p>
+                    Project Name : Road Catcher
+                    <br><br><br>
+                    Contents : It's only a game to be created through HTML, CSS, and JS. Click the car with the mouse to increase the score by score interval. At the same time, the speed increases.
+                </p>
+            </div>
+            <hr>
+            <div>
+                <img src="Assets/images/3.png" alt="3" class="pp1">
+                <p>
+                    Project Name : BMR Calculator
+                    <br><br><br>
+                    Contents : It's a BMR calculator. If you enter your current weight and key, you will get a total of two versions. It was also made using HTML, CSS, and JS only.
+                </p>
+            </div>
+        </section>
+    <% } %> 
+    
+    
+    <!--Contents of 'Services' page-->
+    <% if (title == "Services"){ %>  
+        <section id="service">
+            <div>
+                <img src="Assets/images/4.jpg" alt="4" class="sp1">
+                <p>
+                    Service Type : Tutoring
+                    <br><br><br>
+                    Contents : I helped my friends who were studying the same major and explained what they didn't understand. We have separate classes on Java and JS every Wednesday.
+                </p>
+            </div>
+            <hr>
+            <div>
+                <img src="Assets/images/5.jpg" alt="5" class="sp1">
+                <p>
+                    Service Type : Database Management
+                    <br><br><br>
+                    Contents : Database management using SQL and Mongodb is possible. It is possible to store user's information and organize it easily.
+                </p>
+            </div>
+        </section>
+    <% } %> 

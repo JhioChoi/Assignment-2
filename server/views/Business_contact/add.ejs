@@ -1,0 +1,61 @@
+<%- include ('../partials/header.ejs')%>
+<%- include ('../partials/main_nav.ejs')%>
+<!-- add page -->
+<div class="container">
+  <div class="row">
+    <div class="offset-md-3 col-md-6">
+      <h1 id="business_title"><%=title %></h1>
+
+      <form class="form" method="post">
+        <div class="from-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter your name:"
+            name="name"
+            required
+          />
+        </div>
+
+        <div class="from-group">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            class="form-control"
+            id="email"
+            placeholder="Enter your Email:"
+            name="email"
+            required
+          />
+        </div>
+
+        <div class="from-group">
+          <label for="number">Contact Number</label>
+          <textarea
+            type="text"
+            class="form-control"
+            id="number"
+            placeholder="Enter your Contact Number:"
+            name="number"
+            required
+          ></textarea>
+        </div>
+        <br>
+        
+        <button class="login" type="submit">
+         <i class="fa fa-check" aria-hidden="true"></i> Submit
+        </button>
+
+        <a href="/contact-list" class="cancle">
+          <i class="fa fa-ban" aria-hidden="true"></i> Cancel
+        </a>
+      </form>
+    </div>
+  </div>
+</div>
+<!--bottom navpart-->
+<%- include ('../partials/bottom_nav.ejs')%>
+<!--Footer part-->
+<%- include ('../partials/footer.ejs')%>
